@@ -8,6 +8,11 @@ html{
     padding: 0;
 }
 
+html,
+body{
+    height: 100%;
+}
+
 ul{
     list-style: none;
 }
@@ -15,6 +20,12 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
@@ -29,8 +40,10 @@ a{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #EDEDED;
     font-size: 12;
     font-weight: 500;
+    line-height: 1.1;
 }
 
 .header__inner{
@@ -49,4 +62,41 @@ body{
 .menu__list-link{
     color: white;
     font-size: 14;
+}
+
+.footer{
+    padding: 30px 0 29px;
+    color: #282828;
+    font-size: 14px;
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__menu-list{
+    max-width: 250px;
+}
+
+.footer__menu-item + .footer__menu-item{
+    padding-top: 8px;
+}
+
+.footer__social-link{
+    padding-top: 18px;
+}
+
+.footer__menu-item{
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu-img{
+    padding-right: 10px;
+}
+
+.main{
+    flex-grow: 1;
 }
