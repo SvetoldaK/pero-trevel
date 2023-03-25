@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
 
     <div class="wrapper">
         <heade class="header">
-            <div class="container header-main">
+            <div class="container">
                 <div class="header__inner">
                     <a href="#" class="logo">
                         <img src="images/logo.svg" alt="" class="logo__img">
@@ -32,7 +33,51 @@
                 </div>
             </div>
         </heade>
-        <main class="main"></main>
+        <main class="main">
+            <section class="top">
+                <div class="container">
+                    <p class="title">
+                        <p class="title1">ПУТЕШЕСТВУЙ</p>
+                        <p class="title2">вместе с</p>
+                        <p class="title3">PERO TRAVEL</p>
+                    </p>
+                    <a href="#" class="top__link">К экскурсиям</a>
+                    <li class="main__social-link">
+                        <a href="#" class="main__menu-social">
+                            <img src="images/vk.svg" alt="" class="social">
+                            <img src="images/inst.svg" alt="" class="social">
+                            <img src="images/facebook.svg" alt="" class="social">
+                        </a>
+                    </li>
+                </div>
+            </section>
+            <div class="slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <iframe class="video" width="360" height="227" src="https://www.youtube.com/embed/83Z9iGKBl-A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe class="video" width="360" height="227" src="https://www.youtube.com/embed/l6pDOwNeTrg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe class="video" width="360" height="227" src="https://www.youtube.com/embed/O0ZwlQW0huM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe class="video" width="360" height="227" src="https://www.youtube.com/embed/83Z9iGKBl-A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe class="video" width="360" height="227" src="https://www.youtube.com/embed/l6pDOwNeTrg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe class="video" width="360" height="227" src="https://www.youtube.com/embed/O0ZwlQW0huM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </main>
         <footer class="footer">
             <div class="container">
                 <nav class="footer__menu">
@@ -79,6 +124,7 @@
         </footer>
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
