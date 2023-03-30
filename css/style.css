@@ -42,6 +42,10 @@ a{
     right: 0;
 }
 
+/* .header-main{
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+} */
+
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #EDEDED;
@@ -438,4 +442,23 @@ transition: 0.5s all ease;
     grid-row-end: 5;
     grid-column-start: 4;
     grid-column-end: 6;
+}
+
+h1 {
+    text-align: center;
+    color: #0287c5;
+    padding: 15px;
+}
+
+.gaalary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container img {
+    max-width: 350px;
+    transform: none;
 }
